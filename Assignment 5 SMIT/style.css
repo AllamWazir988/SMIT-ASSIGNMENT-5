@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(soc.jpg);
+
+
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar .logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: -2%;
+    border-radius: 12px;
+
+}
+
+ .navbar .logo:hover{
+    background-color: aqua;
+    color: aqua;
+}
+/* ul{ */
+    /* margin-top: -4%; */
+
+/* } */
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 16px 20px
+}
+
+ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    /* transition: 4s ease; */
+    /* margin-top: -3%; */
+
+}
+
+ul li a:hover{
+    color: yellow;
+}
+
+.info{
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.info h2{
+    font-size: 60px;
+    color: yellow;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+.info span{
+    color: red;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+    background: rgb(38, 255, 0);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info a:hover{
+     background-color: red;
+     color: black
+    
+}
+
+.image img{
+    /* background-color: rgba(43, 255, 0, 0.899);  */
+    width: 280px;
+    height: 320px;
+    position: absolute;
+    border-radius: 50%;
+    left: 83%;
+    transform: translate(-55%);
+    top: 70px;
+    /* border-radius: 40px; */
+    transition: left 1ms ease;
+}
+
+.image:hover .man{
+    left: 78%;
+}
+
+.icons{
+    background-color: aqua;
+    border: 6px solid rgba(51, 28, 134, 0.984);
+    /* display: inline-block; */
+    border-radius: 20px;
+    height: 440px;
+    width: 90px;
+    
+}
+
+.icons a{
+    /* text-decoration: none; */
+    color: #000; 
+    /* margin-left: 5%; */
+    /* margin-right: ; */
+    padding: 14px;
+    font-size: 50px;
+    display: list-item;
+    /* background-color: red; */
+    
+}
+   
+
+.icons a:hover{
+    color: white;
+}
+
+.icons .personal h2{
+    color: red;
+    text-align: center;
+    display: flex;
+}
+
+.personal h2{
+    text-align: center;
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    /* padding-bottom: 20px; */
+    font-size: 50px;
+    text-decoration: none;
+    background: white;
+    display: inline-block;
+    border-radius: 12px;
+    margin: 26px;
+
+   
+
+   
+    
+}
+.personal h2:hover{
+    /* background-color: aqua; */
+    color: blue;
+}
+
+.personal h3{
+    color: white;
+    display: list-item;
+    margin-left: 60px;
+    font-size: 30px;
+    padding-left: 24px;
+    
+
+}
+
+.personal span{
+    color: yellow;
+    margin-left: 12px;
+}
+
+
+.skill h2{
+    text-align: center; 
+    /* padding-left: 450px; */
+    color: red;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    /* padding-bottom: 20px; */
+    text-decoration: none;
+    background: white;
+    display: inline-block;
+    margin: 26px;
+    border-radius: 12px;
+}
+.skill h2:hover{
+    color: blue;
+}
+
+.skill h3{
+    /* text-align: center; */
+    color: white;
+    font-size: 30px;
+    /* padding-left: 450px; */
+    margin-left: 60px;
+    display: list-item;
+    padding-left:24px ;
+
+}
+
+.contact h2{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    /* padding-bottom: 20px; */
+    text-decoration: none;
+    background: white;
+    display: inline-block;
+    border-radius: 12px;
+    margin: 26px;
+
+
+}
+.contact h2:hover{
+    color:blue;
+}
+
+.contact h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    display: list-item;
+    padding-left: 24px;
+}
+
+.contact span{
+    color: yellow;
+}
+
+.languages h2{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    /* padding-left: 24px; */
+    text-decoration: none;
+    background: white;
+    display: inline-block;
+    border-radius: 12px;
+    margin: 26px;
+    
+
+    
+}
+
+.languages h3{
+
+    border-radius: 50px solid black;
+    font-size: 30px;
+    margin-left: 60px;
+    color: white;
+    display: list-item;
+    /* padding-bottom: 20px; */
+    
+}
+
+.hobbies h2{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration: none;
+    background: white;
+    display: inline-block;
+    border-radius: 12px;
+    margin: 100px;
+    
+
+
+}
+
+.hobbies h2:hover{
+    color: blue;
+}
+
+.hobbies h3{
+    
+    border-radius: 50px solid black;
+    font-size: 30px;
+    margin-left: 60px;
+    color: white;
+    display: list-item;
+
+}
+
+.languages h2:hover{
+    color: blue;
+}
+
+.app a{
+    color: #000; 
+    /* margin-left: 5%; */
+    /* margin-right: ; */
+    padding: 14px;
+    font-size: 30px;
+    /* text-align: center; */
+    /* margin-left: 450px; */
+    /* display: inline-block; */
+    /* padding-left: 100px; */
+    margin-left: 100px;
+
+}
+
+.app a:hover{
+    color: white;
+
+}
+
+.button button{
+    /*background-color: white;
+    color: red;
+    align-items: center;
+    font-size: 16px;
+    height: 60px;
+    width: 100px;*/
+
+    text-decoration: none;
+    color: black;
+    background: rgb(38, 255, 0);
+    margin: 100px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.button button:hover{
+    background-color:red;
+    color: black;
+}
+
+
+
+@media all and (max-width: 550px)
+{
+    body{
+        background-color: yellow;
+        color: black;
+
+
+    }
+    .main{
+        float: left;
+        width: 100%;
+    }
+    .logo{
+        float: left;
+        width: 100%;
+    } 
+    .navbar{
+        float: left;
+        width: 100%;
+    } 
+    .navbar a{
+        float: left;
+        width: 100%;
+    }
+    .info{
+        float: left;
+        width: 100%;
+    } 
+    .image{
+        float: left;
+        width: 100%;
+    }
+    .man{
+        float: left;
+        width: 100%;
+    }
+    .icons{
+        float: left;
+        width: 100%;
+    }
+    
+}
